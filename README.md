@@ -1,8 +1,8 @@
 # BMEN 6367 — Artificial Intelligence in Biomedical Engineering
 
-Coursework repository for BMEN 6367 (The University of Texas at Dallas). It holds the class
-notebooks, homework notebooks, and submitted reports for the semester, along with a Google
-Drive mirror of the working copies used inside Google Colab.
+Coursework repository for BMEN 6367 (The University of Texas at Dallas). It holds the homework
+notebooks and submitted reports for the semester, along with a Google Drive mirror of the working
+copies used inside Google Colab.
 
 Author: Rittik Patra · License: MIT
 
@@ -12,26 +12,34 @@ Author: Rittik Patra · License: MIT
 
 ```
 BMEN6367/
-├── Class Notebooks/                 # notebooks worked through during lecture
-│   └── Class1_Aug28.ipynb
 ├── Homework Notebooks/              # graded notebooks, pushed from Colab
 │   ├── Homework1_BMEN6367_Rittik.ipynb
-│   └── Homework2_BMEN6367_Rittik.ipynb
+│   ├── Homework2_BMEN6367_Rittik.ipynb
+│   ├── Homework3_BMEN6367_Rittik.ipynb
+│   └── Homework4_BMEN6367_Rittik.ipynb
 ├── Homework Submissions/            # written reports handed in alongside the code
-│   └── Homework1_BMEN6367_Rittik.docx
+│   ├── Homework1_BMEN6367_Rittik.docx
+│   ├── Homework2_BMEN6367_Rittik.docx
+│   ├── Homework3_BMEN6367_Rittik.docx
+│   └── Homework4_BMEN6367_Rittik.docx
 ├── gdrive/                          # mirror of the MyDrive/BMEN6367 working folder
 │   ├── HW1/
-│   └── HW2/
+│   │   └── Homework1_BMEN6367_Rittik.ipynb
+│   ├── HW2/
 │       ├── Homework2_BMEN6367_Rittik.ipynb
 │       └── images/                  # head_ct.png, cell_microscopy.png, retina_fundus.png
+│   ├── HW3/
+│   │   ├── Homework3_BMEN6367_Rittik.ipynb
+│   │   └── diabetes.csv
+│   └── HW4/
+│       └── Homework4_BMEN6367_Rittik.ipynb
 ├── LICENSE
 └── README.md
 ```
 
-Two directory trees hold the same notebooks on purpose. `gdrive/` is a one-way mirror of the
-Colab working folder in Google Drive (synced by a cell inside the HW2 notebook), while
-`Homework Notebooks/` receives the live, executed state of a notebook pushed directly from the
-browser session. If the two ever disagree, `Homework Notebooks/` is the one that was graded.
+Two directory trees hold the same homework notebooks on purpose. `gdrive/` mirrors the Colab
+working folder in Google Drive, while `Homework Notebooks/` stores the submitted, executed
+versions used for grading. If the two ever disagree, `Homework Notebooks/` is the grading source.
 
 ---
 
